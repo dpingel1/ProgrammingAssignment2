@@ -1,7 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## make a list comparable to example vectorcache except with matrices
+## make a list comparable to example vector cache except with matrices
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -20,11 +17,9 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv)
 }
 
-
-## Write a short comment describing this function
+## Return a matrix that is the inverse of 'x'
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
     
     inv <- x$getinv()
     
